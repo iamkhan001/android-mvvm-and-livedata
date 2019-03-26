@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
                 tvName.setText(userModel.getName());
                 tvEmail.setText(userModel.getEmail());
-                tvResult.setText(userModel.getResult()+"");
+                tvResult.setText(userModel.getNum1()+"+"+userModel.getNum2()+" = "+userModel.getResult());
 
                 editNo1.setText(userModel.getNum1()+"");
                 editNo2.setText(userModel.getNum2()+"");
